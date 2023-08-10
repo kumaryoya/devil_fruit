@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module DevilFruit
-  VERSION = "1.0.0"
+  VERSION = "0.2.0"
 end
