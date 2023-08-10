@@ -1,39 +1,53 @@
 # DevilFruit
-
-TODO: Delete this and the text below, and describe your gem
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/devil_fruit`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to the DevilFruit gem! This gem allows you to generate random devil fruit names from the popular anime and manga series "One Piece". You can use this gem to add a fun and random element to your Ruby projects.
 
 ## Installation
-
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
-Install the gem and add to the application's Gemfile by executing:
-
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+Add this gem to your application's Gemfile:
+```
+gem 'devil_fruit'
+```
+And then execute:
+```
+$ bundle install
+```
+Or install it yourself with:
+```
+$ gem install devil_fruit
+```
 
 ## Usage
+To generate a random devil fruit name, you can use the following code:
+```
+require 'devil_fruit'
 
-TODO: Write usage instructions here
+random_fruit = DevilFruit.random_devil_fruit
+puts "Random Devil Fruit: #{random_fruit}"
+```
 
 ## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+After cloning the repository, run the following command to set up dependencies:
+```
+$ bin/setup
+```
+You can also run an interactive console for experimentation:
+```
+$ bin/console
+```
+To install the gem on your local machine, run:
+```
+$ bundle exec rake install
+```
+To release a new version, update the version number in lib/devil_fruit/version.rb, commit your changes, and then run:
+```
+$ bundle exec rake release
+```
+This will create a git tag, push commits and the tag, and push the .gem file to rubygems.org.
 
 ## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/devil_fruit. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/devil_fruit/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub. This project is intended to be a safe and welcoming space for collaboration, and contributors are expected to follow the code of conduct.
 
 ## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the MIT License.
 
 ## Code of Conduct
-
-Everyone interacting in the DevilFruit project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/devil_fruit/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting with the DevilFruit project's codebases, issue trackers, chat rooms, and mailing lists is expected to follow the code of conduct.
