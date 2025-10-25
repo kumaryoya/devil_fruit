@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    devil_fruit (0.2.0)
+    devil_fruit (0.3.0)
 
 GEM
   remote: https://rubygems.org/
