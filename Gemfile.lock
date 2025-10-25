@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    devil_fruit (0.1.0)
+    devil_fruit (0.2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -24,6 +24,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  arm64-darwin-24
 
 DEPENDENCIES
   devil_fruit!
