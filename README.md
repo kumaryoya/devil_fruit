@@ -21,6 +21,7 @@ To generate a random devil fruit name, you can use the following code:
 require 'devil_fruit'
 
 random_fruit = DevilFruitGem::FormatDevilFruit.random_devil_fruit
+
 puts "Random Devil Fruit: #{random_fruit}"
 ```
 
